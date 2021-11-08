@@ -1,0 +1,142 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Logo */
+.blockbench_logo{
+  content: url(https://cdn.discordapp.com/attachments/903533407613648906/906799294252720178/tbench_theme.png);
+  margin: 20px;  
+  image-rendering: auto; 
+  display: inline;
+}
+
+/* Dialog */
+.dialog {
+  border: 3px dotted #201322;
+  background-color: ;
+  border-radius: 25px;
+  transition: all 1s;
+}
+
+.dialog_menu_button {
+  background-color: #201322;
+  border-radius: 10px;
+  transition: all 1s;
+}
+
+.dialog_menu_button:hover {
+  background-color: var(--color-selected);
+}
+
+.dialog_close_button {
+  background-color: #201322;
+  border-radius: 10px;
+  transition: all 1s;
+   
+ } 
+
+.dialog_close_button:hover {
+  background-color: var(--color-selected);
+  transform: rotateY(40deg); 
+  transform: rotateX(30deg);  
+}
+
+.dialog_handle {
+  border-radius: 30px;
+  transition: all 1s;
+}
+
+.dialog_handle:hover {
+  transform: rotateY(40deg); 
+  transform: rotateX(30deg);  
+}
+
+.dialog_sidebar_menu {
+  background-color: ;
+  border-radius: 25px;
+}
+
+.dialog_sidebar_menu_button {
+  background-color: #201322;
+  border-radius: 10px;
+  transition: all 1s;  
+ } 
+ 
+ ul.dialog_sidebar_actions {
+   background-color: ;
+   border-radius: 25px;
+ }
+ 
+ div.dialog_sidebar {
+   background-color: ;
+   border-radius: 25px;
+   transition: all 1s;  
+ }
+ 
+ button.confirm_btn.cancel_btn {
+   background-color: ;
+   border-radius: 25px;
+   transition: all 1s;
+  }  
+  
+  button.confirm_btn.cancel_btn:hover {
+   transform: rotateY(40deg); 
+   transform: rotateX(30deg);   
+  }  
+  
+  li {
+   background-color: #201322;
+   border-radius: 25px;
+   transition: all 1s;
+  }
+  
+  li.selected {
+   transform: rotateY(40deg); 
+   transform: rotateX(30deg);  
+  }
+  
+  li:hover {
+   transform: rotateY(40deg); 
+   transform: rotateX(30deg);  
+   } 
+   
+  div.layout_color_preview.color_input {
+   border: 2px dotted #201322;
+   border-radius: 10px;
+   transition: all 1s;  
+  } 
+  
+div.layout_color_preview.color_input:hover {
+   transform: rotateY(40deg); 
+   transform: rotateX(30deg);  
+  } 
+  
+div.theme {
+border: 2px dotted #201322;
+   border-radius: 10px;
+   transition: all 1s; 
+} 
+
+div.theme:hover {
+  transform: rotateY(40deg); 
+  transform: rotateX(30deg); 
+}
+
+div.theme.selected {
+  transform: rotateY(40deg); 
+  transform: rotateX(30deg);
+} 
+
+ul.contextMenu {
+  background-color: #110913;
+  border-radius: 25px;
+}
+
+input, selct {
+  border-radius: 25px;
+}
+
+
+
+span.key, span.optional, span.modifier, div.keybindslot {
+  border-radius: 25px;
+}
